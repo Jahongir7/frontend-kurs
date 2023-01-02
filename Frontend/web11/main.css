@@ -1,0 +1,13 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.sticky-box {
+    height: 100%;
+    width: 100%;
+    background-image: url(./a.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 1000px;
+}

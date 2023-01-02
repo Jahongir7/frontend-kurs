@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       .parent-box {
+            font-size: 1.5rem; /* 1.5 * 16px = 24px */
+        }
+        .child-box {
+            font-size: 2rem; /* 2 * 16px = 32px */
+        }
+        .box {
+            height: 600px;
+            width: 1000px;
+            border: 1px solid red;
+            border-radius: 0.5rem; /* 0.5 * 16px = 8px */
+            padding: 5rem; /* 5 * 16px = 80px */
+        }
+
+        @media (min-width: 400px) and (max-width:800px) {
+            .parent-box{
+                background-color: #000;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="parent-box">
+        <div class="child-box">
+            <div class="box">Elementlarimiz nested holatda joylashganda</div>
+        </div>
+    </div>
+</body>
+</html>

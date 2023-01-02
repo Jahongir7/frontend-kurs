@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+.container{
+    width: 84.5%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.116);
+    padding: 0 7.5%;
+}
+nav h1{
+    font-size: 1.75em;
+    font-family: 'Rubik';
+    font-style: normal;
+    color: #5A98D0;
+    font-weight: 700;
+    line-height: 33px;
+    font-style: normal;
+}
+nav h1 span{
+    color: #0B132A;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 1rem;
+    color: #4F5665;
+}
+.btn{
+    padding: 10px 40px;
+    background-color: #fff;
+    border: 1px solid #5a98d0;
+    color: #5a98d0;
+    border-radius: 50px;
+    line-height: 19px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #5a98d0;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin: 5rem 0;
+}
+.main-left{
+    margin: 10px;
+}
+.main-left h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+}
+.main-left p{
+    color: #4F5665;
+}
+.btn-primary{
+    padding: 15px 40px;
+    background-color: #5a98d0;
+    border: 1px solid  #5a98d0;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 250px;
+    box-shadow: 5px 17px 30px rgba(90, 152, 208, 0.35);
+    transition: all 0.3s;
+}
+.btn-primary:hover{
+    box-shadow:5px 17px 30px rgba(90, 152, 208, 0.65);
+    transform: scale(1.01);
+    background-color: #fff;
+    color: #5A98D0;
+    cursor: pointer;
+}
+.main-right img{
+    width: 611px;
+    height: 382px;
+}
+.info-item img{
+    background-color: #EEF5FB;
+}
+.info{
+    display: flex;
+}
+.info-item:nth-child(2){
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+
+#history{
+    transition: all 1.5s;
+}

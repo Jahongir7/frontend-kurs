@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edubitrix.uz</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <h1>EDU<span>Bitrix</span></h1>
+        <ul>
+            <li>Biz haqimizda</li>
+            <li>Ustunligimiz</li>
+            <li>Ta'riflar</li>
+            <li>Savollar</li>
+            <li>Fikrlar</li>
+        </ul>
+        <b>Ro'yhatdan o'tish</b>
+        <button class="btn">Kirish</button>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <div class="main-left">
+                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi numquam unde.</p>
+                <button class="btn-primary">Hoziroq boshlang</button>
+            </div>
+            <div class="main-right">
+                <img src="./images/Illustration 1.png" alt="">
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-item">
+                <img src="./images/user.png" alt="">
+
+            </div>
+            <div class="info-item">
+                <img src="./images/location.png" alt="">
+                
+            </div>
+            <div class="info-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                
+            </div>
+        </div>
+        <button onclick="toggle()">click</button>
+        <div id="collapse">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, commodi.</div>
+        <div>nagap</div>
+    </div>
+    <script>
+        function toggle() {
+    var target = document.getElementById("collapse");
+    if(target.style.display == 'block'){
+        target.style.display = 'none';
+    }
+    else {
+        target.style.display = 'block';
+    } }
+    </script>
+    <script src="https://kit.fontawesome.com/aeacbd87f5.js" crossorigin="anonymous"></script>
+</body>
+</html>

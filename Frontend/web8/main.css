@@ -1,0 +1,71 @@
+body{
+    background-color: gray;
+}
+
+.box{
+    width: 500px;
+    max-height: 200px;
+    border: 10px solid rgb(101, 140, 76);
+    font-style:italic;
+}
+hr{
+    background-color: red;
+    border-color: red;
+}
+h4{
+    background-color: red;
+}
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    }
+    .container span {
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    }
+    .box-2 {
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    }
+    .box-3 {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    }
+
+    img{
+        float: right;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    h2{
+        text-align: center;
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+
+    .box2{
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        float: right;
+    }
+    .box3{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(46, 0, 0);
+        float: left;
+    }
+    .box3:visited{
+        background-color: red;
+    }
+    

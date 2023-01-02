@@ -1,0 +1,329 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 84.5%;
+    margin: 0 auto;
+}
+
+.home {
+    background-image: url(./images/bg-main.png);
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar qism boshlandi */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 15px 22.5px;
+}
+.navbar ul li:hover{
+    color: #34C759;
+    cursor: pointer;
+}
+
+.logo{
+    margin: auto 0;
+}
+
+nav {
+    border-bottom: 2px solid rgb(133, 133, 133);
+}
+
+/* Navbar qism tugadi */
+
+
+/* Main qism boshlandi */
+
+.main {
+    margin: 80px auto;
+}
+
+.main span{
+    display: block;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 7px;
+}
+
+.main p{
+    opacity: 0.7;
+    text-align: center;
+}
+
+.main button {
+    display: block;
+    padding: 25px 57px;
+    background-color: #34C759;
+    border-radius: 43px;
+    border: none;
+    margin: 40px auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact {
+    margin: 60px auto;
+}
+
+.contact-item {
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-item b {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-item p {
+    opacity: 0.5;
+}
+
+
+/* About section */
+
+.about {
+    background-color: #252525;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.about h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about span {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px;
+    left: 25%;
+}
+
+
+.about p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:  #A6A6A6;;
+}
+
+.about-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-images img {
+    padding: 10px;
+}
+
+.work{
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.work h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.work span {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px;
+    left: 36.5%;
+}
+.work .line1{
+    margin: 0 auto;
+}
+
+.line1{
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+}
+
+.work-info{
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.work-info-item{
+    display: inline-block;
+    background-color: #252525;
+    margin: 15px;
+    padding: 20px;  
+    border-radius: 6px;
+}
+
+.work-info-item b{
+    display: block;
+    font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: -0.275px;
+margin: 10px 0;
+}
+
+.work-info-item p {
+    font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1625px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+
+.work-info-item:hover{
+    background-color: #34C759;
+    color: black;
+}
+
+.work-info-item:hover p{
+    color:#000;
+}
+
+.work-info-item:hover .line{
+    background-color: #000;
+}
+
+.dishes{
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.dishes h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 7px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dishes > span {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 95px;
+    left: 36.5%;
+}
+.dishes .line{
+    margin: 0 auto;
+}
+
+.cards{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #252525;
+    margin: 15px;text-align: left;
+    border-radius: 8px;
+    position: relative;
+    height: 480px;
+}
+.card-container {
+    padding: 30px;
+}
+
+.card-image{
+    position: relative;
+
+}
+.card span{
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 30px;
+text-align: left;
+}
+
+.card p{
+    font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: -0.15px;
+color: #A4A8B2;
+}
+
+.description p{
+    font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: -0.1625px;
+
+color: #85878C;
+}
+
+.card-container button{
+    margin-right: auto;
+    padding: 20px 32px;
+    border: 1px solid gray;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #252525;
+    border-radius: 20px;
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+}
+
+.card-container button:hover{
+    background-color: #34C759;
+    color: #252525;
+    cursor: pointer;
+}
+
+.button-container{
+    width: 100%;
+}
+
