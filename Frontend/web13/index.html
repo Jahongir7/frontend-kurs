@@ -10,15 +10,15 @@
 <body>
     <nav>
         <h1>EDU<span>Bitrix</span></h1>
-        <ol>
+        <ol id="mob-ol">
             <li>Biz haqimizda</li>
             <li>Ustunligimiz</li>
             <li>Ta'riflar</li>
             <li>Savollar</li>
             <li>Fikrlar</li>
         </ol>
-        <b>Ro'yhatdan o'tish</b>
-        <button class="btn">Kirish</button>
+        <b id="mob-b">Ro'yhatdan o'tish</b>
+        <a href="login.html" class="btn">Kirish</a>
     </nav>
     <div class="container">
         <div class="main">
@@ -269,6 +269,17 @@
         function toggle() {
             var target = document.getElementById("answer");
             if(target.style.display == 'block') {
+                target.style.display = 'none'
+                console.log("if");
+            }
+            else {
+                target.style.display = 'block'
+                console.log("else")
+            }
+        }
+        function open1() {
+            var target = document.getElementById('mobbtn');
+            if(target.style.display == 'block') { 
                 target.style.display = 'none'
                 console.log("if");
             }

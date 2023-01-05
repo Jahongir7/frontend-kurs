@@ -12,7 +12,15 @@ nav {
     padding: 0 10%;
     box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.121);
 }
-
+#for-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.mobile-button{
+    display: none;
+}
 nav ol {
     list-style: none;
     display: flex;
@@ -237,7 +245,7 @@ nav b {
     color: #4F5665;
 }
 
-#answer {
+.answer {
     display: none;
 }
 
@@ -397,4 +405,34 @@ footer {
 .footer-right ul{
     list-style: none;
     padding-left: 0;
+}
+.mobile-button{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+nav:nth-child(2){
+    display: none;
+    flex-direction: column;
+}
+nav:nth-child(2) ol{
+    display: block;
+}
+nav:nth-child(2) b{
+    display: block;
+}
+@media (max-width: 667px) {
+   nav:nth-child(1){
+    display: none;
+   }
+   nav:nth-child(2){
+    display: block;
+   }
+    .mobile-button{
+        display: block;
+    }
+
+}
+nav a {
+    text-decoration: none;
 }
